@@ -1,5 +1,5 @@
 import { NavDiv } from "../../Styles/NavbarStyles";
-
+import { Link } from "react-router-dom";
 export function Navbar(){
 
     return (
@@ -9,14 +9,14 @@ export function Navbar(){
                 <h1>Kumar</h1>
             </div>
             <div className="menuContainer">
-                <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Projects</a>
-                <a href="">Contact</a>
+                <Link to="/home"><span >Home</span></Link>
+                <Link to="/about"><span >About</span></Link>
+                <Link to="/projects"><span >Projects</span></Link>
+                <Link to="/contact"><span >Contact</span></Link>
             </div>
             <div className="linksContainer">
-                <a>Resume</a>
-                <a><img src="../../../GitHub-Mark-Light-32px.png" alt="" /> <span>Github</span></a>
+                <a href="../../../nitish_nj2_152.pdf"><button>Resume</button></a>
+                <button><img src="../../../GitHub-Mark-Light-32px.png" alt="" /> <p>Github</p></button>
             </div>
         </NavDiv>
     )
