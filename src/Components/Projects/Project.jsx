@@ -20,6 +20,9 @@ export function Project({data}){
         </ProjectContainer>
         <Modal isOpen={p1} style={{content:{width:"70vw", margin:"auto",backgroundColor:"#2d2e32"}}}>
         <ModalDiv className="modaldiv">
+            <button onClick={()=>{
+                setP1(false)
+            }}>X</button>
             <img src={data.url} alt="" />
             <div className="details">
                 <div className="left">
@@ -44,9 +47,7 @@ export function Project({data}){
                 </div>
                 
             </div>
-            <button onClick={()=>{
-                setP1(false)
-            }}>X</button>
+            
         </ModalDiv>
     </Modal>
  </> 

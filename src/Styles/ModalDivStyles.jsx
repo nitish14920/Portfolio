@@ -9,32 +9,44 @@ color: #e4e6eb ;
     height: 46vh;
     margin-left:10px;
     border-radius: 5px;
+    width: 98%;
 }
 & button{
     height: 10%;
     margin-left: 99%;
+    margin-top: -99%;
+    background-color:#35CE8D ;
 }
 & .details{
     display: flex;
+    height: 55vh;
+    width: 100%;
     & > div{
         margin: 10px;
     }
+    
+    & .left{
+        width: 60%;
+    }
     & .right{
-        margin-left: 100px;
+        width: 40%;
     }
 }
 & .techstack{
     display: flex;
     flex-wrap: wrap;
     height:60%;
-    & >div{
-        height: 45%;
-        width: 20%;
+    width: 100%;
+    & > div {
+        height: 40%;
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
     }
-    & img{
-        height: 60px;
-        margin-left: 15px;
-        
+    & > div > img{
+        height: 40%;
+        margin: auto;
     }
     
     & >div>h4{

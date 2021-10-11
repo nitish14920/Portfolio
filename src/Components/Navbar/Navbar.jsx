@@ -9,14 +9,14 @@ export function Navbar(){
                 <h1>Kumar</h1>
             </div>
             <div className="menuContainer">
-                <Link to="/home"><span >Home</span></Link>
+                <Link to="/"><span >Home</span></Link>
                 <Link to="/about"><span >About</span></Link>
                 <Link to="/projects"><span >Projects</span></Link>
                 <Link to="/contact"><span >Contact</span></Link>
             </div>
             <div className="linksContainer">
-                <a href="../../../nitish_nj2_152.pdf"><button>Resume</button></a>
-                <button><img src="../../../GitHub-Mark-Light-32px.png" alt="" /> <p>Github</p></button>
+                <a href="./nitish_nj2_152.pdf"><button>Resume</button></a>
+                <button><img src="./GitHub-Mark-Light-32px.png" alt="" /> <p>Github</p></button>
             </div>
         </NavDiv>
     )
