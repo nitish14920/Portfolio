@@ -37,4 +37,12 @@ margin: 40px;
     width: 70%;
     height: 25%;
 }
+@media(max-width:400px){
+    width: 70%;
+    height: 25%;
+    
+    p{
+        font-size:.7rem;
+    }
+}
 `

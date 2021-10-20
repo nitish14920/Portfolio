@@ -11,3 +11,8 @@
       font-size: 12px;
     }
 }
+@media(max-width:400px){
+  html{
+    font-size: 10px;
+  }
+}

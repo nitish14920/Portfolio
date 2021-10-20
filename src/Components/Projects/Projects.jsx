@@ -119,7 +119,7 @@ export function Projects(){
 
         <ProjectDiv>
             <h1>Projects</h1>
-            <div className="projects">
+            <div className="projects" style={{height:"100%"}}>
                 <Project data = {data[0]}/>
                 <Project data = {data[1]}/>
                 <Project data = {data[2]}/>

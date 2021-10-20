@@ -43,4 +43,31 @@ height: 100%;
         }
     }
 }
+@media(max-width:400px){
+    word-spacing: 0px;
+    
+    & .details > div > h6{
+    font-size:1.2rem;
+    padding: 30px;
+    }
+    & .details >div >p{
+        font-size: 1rem;
+    }
+    & .skills{
+        width: 350px;
+        padding: 10px;
+    }
+    & .skills > div{
+        height: 70px;
+        width: 80px;
+        & > h4{
+            font-size: .7rem;
+            padding: 10px;
+            margin-top: 0px;
+        }
+        & > img{
+            margin-top: 10px;
+        }
+    }
+}
 `

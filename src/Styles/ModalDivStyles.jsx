@@ -114,5 +114,70 @@ color: #e4e6eb ;
     }
 }
 }
+@media(max-width:400px){
+   
+    #projectImg{
+        
+    }
+    color: #e4e6eb ;
+    
+& h1,h3,h4,p{
+    margin: 0px;
+}
+& > img{
+    height: 25vw;
+    margin-left:5px;
+    border-radius: 5px;
+    width: 98%;
+}
+& button{
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    background-color:#35CE8D ;
+    
+}
+& .details{
+    display: flex;
+    flex-direction: column;
+    height: 55vh;
+    width: 100%;
+    & > div{
+        margin: 10px;
+    }
+    
+    & .left{
+        width: 100%;
+        & h2{
+            font-size: 1.2rem;
+        }
+        & p{
+            font-size: 1rem;
+        }
+    }
+    & .right{
+        width: 100%;
+    }
+}
+& .techstack{
+    
+    height:60%;
+    
+    & > div {
+        height: 50px;
+        width: 35px;
+        font-size:.8rem;
+        
+    }
+    & > div > img{
+        height: 45%;
+        margin: auto;
+    }
+    
+    & >div>h4{
+        text-align: center;
+    }
+}
+}
 
 `

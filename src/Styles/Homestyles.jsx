@@ -14,18 +14,18 @@ background-color: rgb(45, 46, 50);
     & > span{
         background-color:#64f4ac ;
         color: rgb(45, 46, 50);
-        padding: 10px;
+        padding: .8rem;
         border-radius: 3px;
         font-weight: 600;
         letter-spacing: 2px;
         font-size: 1rem;
     }
     & >h1{
-        margin: 60px 0px;
+        margin: 5% 0px;
         font-size: 3rem;
     }
     & >p{
-        margin-bottom: 80px;
+        margin-bottom: 10%;
         color: #a1a3a8;
         letter-spacing: 2px;
     }
@@ -68,14 +68,14 @@ background-color: rgb(45, 46, 50);
     .linksContainerHome{
     display: flex;
     margin-top: 10%;
-    margin-left: 25%;
+    margin-left: 20%;
     height: 100%;
     &  a{
-        height: 40px;
-        width: 150px;
+        height: 2.5rem;
+        width: 8rem;
         
         line-height: 1.8;
-        font-size: 1.8rem;
+        font-size: 1.3rem;
         background-color:#64f4ac ;
         border: none;
         border-radius: 4px;
@@ -104,5 +104,57 @@ background-color: rgb(45, 46, 50);
     
 }
     
+}
+@media(max-width:400px){
+    flex-direction: column-reverse;
+    .profilePhoto{
+        //display: none;
+        margin: auto;
+        
+        
+        & img{
+            margin-top: 23px;
+            height: 170px;
+        }
+        
+    }
+    .linksContainerHome{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 20%;
+    height: 100%;
+    &  a{
+        height: 2.5rem;
+        width: 8rem;
+        
+        line-height: 1.8;
+        font-size: 1.3rem;
+        background-color:#64f4ac ;
+        border: none;
+        border-radius: 4px;
+        color: #2d2e32;
+    }
+    & >:nth-child(2){
+        background-color:#2d2e32 ;
+        color:#e4e6eb ;
+        line-height: .8;
+        display: flex;
+        margin-left: 15%;
+        cursor: pointer;
+        & >p{
+            line-height:0;
+            margin-left: 15px;
+        }
+        & > img{
+            height: 20px;
+            margin-top: 5px;
+        }
+    }
+    & a{
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+}
 }
 `

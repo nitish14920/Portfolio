@@ -85,6 +85,16 @@ padding: 1vh 2vh;
   height: 30px;
   right: 36px;
   top: 36px;
+  @media(max-width:400px){
+    
+    
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    right: 10px;
+    top: 10px;
+    
+} 
 }
 
 /* Color/shape of burger icon bars */
@@ -117,6 +127,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .bm-menu-wrap {
   position: fixed;
   height: 100%;
+ 
 }
 
 /* General sidebar styles */
@@ -124,6 +135,10 @@ Note: Beware of modifying this element as it can break the animations - you shou
   background: rgb(66, 66, 68);;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
+  @media(max-width:400px){
+    width: 200px;
+    margin-left: 100px;
+  } 
 }
 
 /* Morph shape necessary with bubble or elastic */
@@ -138,6 +153,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   color: #b8b7ad;
   padding: 0.8em;
   justify-content:flex-start;
+  
 }
 
 /* Individual item */
@@ -149,6 +165,10 @@ Note: Beware of modifying this element as it can break the animations - you shou
   height: 5vh;
   line-height:3;
   margin-bottom: 5vh;
+  @media(max-width:400px){
+    height: 4vh;
+    line-height:2;
+  } 
 }
 
 /* Styling of overlay */
@@ -160,7 +180,18 @@ Note: Beware of modifying this element as it can break the animations - you shou
 @media(max-width:1300px){
     .menuContainer{
     margin-left: 3%;
+    }
 }
+@media(max-width:400px){
+    
+    .bm-burger-button {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    right: 10px;
+    top: 10px;
+    }
+
 } 
 @media(max-width:768px){
   .logoContainer{
