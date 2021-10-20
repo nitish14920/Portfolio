@@ -29,7 +29,7 @@ export function Navbar(){
                 <a href="https://github.com/nitish14920"><img id="githubImg" src="./GitHub-Mark-Light-32px.png" alt="" /> <p>Github</p></a>
             </div>
             <button onClick={burgerClick} className="menuIcon">
-            <Menu noOverlay right isOpen={isopen} className="burgerMenu">
+            <Menu  right isOpen={isopen} className="burgerMenu">
                 <Link id="home" className="menu-item" to="/">Home</Link>
                 <Link id="about" className="menu-item" to="/about">About</Link>
                 <Link id="projects" className="menu-item" to="/projects">Projects</Link>

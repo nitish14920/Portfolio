@@ -35,6 +35,6 @@ margin: 40px;
 }
 @media(max-width:768px){
     width: 70%;
-    height: 20%;
+    height: 25%;
 }
 `

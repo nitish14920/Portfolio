@@ -8,9 +8,9 @@ background-color: rgb(45, 46, 50);
 
 & .details{
     text-align: left;
-    margin-left: 8%;
-    margin-top: 10%;
     margin: auto;
+    margin-left: 4%;
+    margin-top: 12%;
     & > span{
         background-color:#64f4ac ;
         color: rgb(45, 46, 50);
@@ -42,7 +42,7 @@ background-color: rgb(45, 46, 50);
 & .profilePhoto{
     
    margin-right: 6%;
-   margin-top: 5%;
+   margin-top: 10%;
     
 }
 @media(max-width:768px){
@@ -51,6 +51,7 @@ background-color: rgb(45, 46, 50);
         //display: none;
         margin: auto;
         margin-bottom: 10%;
+        margin-top: 10%;
         & img{
             height: 250px;
         }
@@ -59,6 +60,9 @@ background-color: rgb(45, 46, 50);
     & .details{
     text-align: center;
     /* margin-left: 8%; */
+        & p{
+            font-size: 1.2rem;
+        }
     
     }
     .linksContainerHome{
@@ -67,10 +71,10 @@ background-color: rgb(45, 46, 50);
     margin-left: 25%;
     height: 100%;
     &  a{
-        height: 10%;
+        height: 40px;
         width: 150px;
         
-        line-height: 2;
+        line-height: 1.8;
         font-size: 1.8rem;
         background-color:#64f4ac ;
         border: none;
@@ -85,7 +89,7 @@ background-color: rgb(45, 46, 50);
         margin-left: 15%;
         cursor: pointer;
         & >p{
-            line-height:.8;
+            line-height:0;
             margin-left: 15px;
         }
         & > img{

@@ -16,5 +16,31 @@ height: 100%;
     margin: auto;
     justify-content: center;
     padding: 30px;
+    & div{
+        font-size: 1.1rem;
+    }
+    
+}
+@media(max-width:768px){
+    word-spacing: 0px;
+    & .details > div > h6{
+    font-size:1.4rem;
+    padding: 30px;
+    }
+    & .details >div >p{
+        font-size: 1.2rem;
+    }
+    & .skills > div{
+        height: 120px;
+        width: 120px;
+        & > h4{
+            font-size: 1rem;
+            padding: 10px;
+            margin-top: 0px;
+        }
+        & > img{
+            margin-top: 20px;
+        }
+    }
 }
 `

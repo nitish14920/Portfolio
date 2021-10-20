@@ -36,10 +36,10 @@ padding: 1vh 2vh;
     margin-left: 10%;
     height: 100%;
     &  a{
-        height: 60%;
+        height: 40px;
         width: 150px;
         
-        line-height: 1.5;
+        line-height: 2;
         font-size: 1rem;
         background-color:#64f4ac ;
         border: none;
@@ -83,29 +83,31 @@ padding: 1vh 2vh;
   position: fixed;
   width: 36px;
   height: 30px;
-  left: 36px;
+  right: 36px;
   top: 36px;
 }
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
   background: #373a47;
+  position: relative;
+  
 }
 
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
-  background: #a90000;
+  background: #64f4ac;
 }
 
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
-  height: 24px;
-  width: 24px;
+  height: 30px;
+  width: 30px;
 }
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: #bdc3c7;
+  background: #64f4ac;
 }
 
 /*
@@ -119,7 +121,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* General sidebar styles */
 .bm-menu {
-  background: #373a47;
+  background: rgb(66, 66, 68);;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 }
