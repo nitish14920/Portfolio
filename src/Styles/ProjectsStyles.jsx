@@ -12,6 +12,6 @@ export const ProjectDiv = styled.div`
     margin-top: 40px;
 }
 @media(max-width:768px){
-    
+    height: 100%;
 }
 `

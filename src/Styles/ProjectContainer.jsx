@@ -25,7 +25,7 @@ margin: 40px;
     letter-spacing: 1px;
     padding: 1%;
     margin: 0px;
-    font-size: large.7rem;
+    font-size: 1rem;
 }
 & .details{
     background-color: #4a4a4d;
@@ -34,6 +34,7 @@ margin: 40px;
     border-bottom-right-radius: 10px;
 }
 @media(max-width:768px){
-
+    width: 70%;
+    height: 20%;
 }
 `
