@@ -14,6 +14,13 @@ padding: 1vh 2vh;
         font-weight: 200; 
     }
 }
+& #menuIcon{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    font-size:2rem;
+    display: none;
+}
 
 & .menuContainer{
     margin-left: 10%; 
@@ -25,31 +32,32 @@ padding: 1vh 2vh;
         color: #e4e6eb;
         padding-left:10%;
         line-height: 125%;
-        font-size: 20px;
+        font-size: 1.3rem;
         text-decoration:none
     }
 }
 & .linksContainer{
     display: flex;
     margin-top: 15px;
-    margin-left: 5%;
+    margin-left: 10%;
     &  button{
         height: 60%;
         width: 150px;
-        margin-left: 2%;
+        
         line-height: 1.5;
-        font-size: 20px;
+        font-size: 1rem;
         background-color:#64f4ac ;
         border: none;
         border-radius: 4px;
         color: #2d2e32;
     }
-    & :nth-child(2){
+    & :nth-child(2)>button{
         background-color:#2d2e32 ;
         color:#e4e6eb ;
         line-height: .5;
         display: flex;
-        margin-left: 10px;
+        margin-left: 15%;
+        cursor: pointer;
         & >p{
             line-height:0;
             margin-left: 5px;
@@ -59,5 +67,67 @@ padding: 1vh 2vh;
             margin-top: 5px;
         }
     }
+    & a{
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+@media(max-width:1300px){
+    .menuContainer{
+    margin-left: 3%;
+}
+} 
+@media(max-width:768px){
+  .logoContainer{
+ margin: auto;
+ 
+}
+.menuContainer{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 10%;
+    left: 28vw;
+    &  a{
+        padding: 10%;
+        display: block;
+    }
+}
+.linksContainer{
+    display: none;
+    position: absolute;
+    bottom: 0%;
+    left: 30%;
+    margin: auto;
+    &  button{
+        height: 80%;
+        width: 100px;
+        
+        line-height: 1.5;
+        font-size: 1.3rem;
+        background-color:#64f4ac ;
+        border: none;
+        border-radius: 4px;
+        color: #2d2e32;
+    }
+    & :nth-child(2)>button{
+        background-color:#2d2e32 ;
+        color:#e4e6eb ;
+        line-height: .5;
+        display: flex;
+        margin-left: 15%;
+        cursor: pointer;
+        & >p{
+            line-height:1;
+            margin-left: 5px;
+            font-size: 1.6rem;
+        }
+        #githubImg{
+            height: 25px;
+            
+        }
+    }
+}
+
 }
 `

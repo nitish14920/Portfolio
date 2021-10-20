@@ -23,7 +23,7 @@ export function Project({data}){
             <button onClick={()=>{
                 setP1(false)
             }}>X</button>
-            <img src={data.url} alt="" />
+            <img id="projectImg" src={data.url} alt="" />
             <div className="details">
                 <div className="left">
                 <h2>{data.title}</h2>

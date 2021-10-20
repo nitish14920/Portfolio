@@ -6,8 +6,8 @@ display: flex;
 justify-content: center;
 text-align: left;
 & .left{
-    margin-right:150px;
-    margin-top: 150px;
+    margin-left:2%;
+    margin-top: 10%;
     & button{
             width: 180px;
             height: 40px;
@@ -19,16 +19,16 @@ text-align: left;
 }
 & .right{
     text-align: left;
-    width: 500px;
-    padding: 40px;
+    width: 40%;
+    padding: 2%;
     & h2 , p{
-        margin-top: 30px;
+        margin-top: 5%;
     }
     & form{
         display: flex;
         flex-direction: column;
         border: 1px solid #64f4ac ;
-        height: 400px;
+        height: 50%;
         justify-content: space-around;
         border-radius: 5px;
         margin-top: 80px;
@@ -45,7 +45,7 @@ text-align: left;
             background-color: #64f4ac;
             border: none;
             border-radius: 10px;
-            margin-left: 370px;
+            margin: 3% 5%;
         }
     }
 }
@@ -56,6 +56,7 @@ text-align: left;
     button{
         height: 40px;
         width: 120px;
+        cursor: pointer;
         border-radius: 10px;
         background: none;
         font-size: 15px;
@@ -65,5 +66,81 @@ text-align: left;
             color: #e4e6eb;
         }
     }
+    
+}
+@media(max-width:768px){
+    height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: left;
+& .left{
+    width: 90%;
+    margin-top: 22vh;
+    margin: auto;
+    text-align: center;
+    & button{
+            width: 25vw;
+            height: 7vw;
+            background-color: #64f4ac;
+            border: none;
+            border-radius: 10px;
+            margin-top: 5%;
+            color: white;
+    }
+}
+& .right{
+    text-align: left;
+    width: 40%;
+    padding: 2%;
+    margin:auto;
+    & h2 , p{
+        margin-top: 5%;
+    }
+    & form{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #64f4ac ;
+        height: 50%;
+        justify-content: space-around;
+        border-radius: 5px;
+        margin-top: 10%;
+        & input{
+            height: 50px;
+            background: none;
+            border: none;
+            border-bottom: 1px solid #64f4ac;
+            margin: 0px 30px;
+        }
+        & button{
+            width: 70px;
+            height: 30px;
+            background-color: #64f4ac;
+            border: none;
+            border-radius: 10px;
+            margin: 5% 12%;
+            color: white;
+        }
+    }
+}
+& .links{
+    margin-top: 20%;
+    display: flex;
+    justify-content: space-around;
+    button{
+        height: 30px;
+        width: 100px;
+        cursor: pointer;
+        border-radius: 10px;
+        background: none;
+        font-size: 1rem;
+        color: #e4e6eb;;
+        & i{
+            margin-right: 10px;
+            color: #e4e6eb;
+        }
+    }
+    
+}
 }
 `

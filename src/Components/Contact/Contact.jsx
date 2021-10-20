@@ -20,9 +20,9 @@ export function Contact(){
                      <button>SEND</button>
                  </form>
                  <div className="links">
-                     <button><i class="fab fa-twitter"></i>Twitter</button>
-                     <button><i class="fab fa-linkedin"></i>LinkedIn</button>
-                     <button><i class="fab fa-github"></i>Github</button>
+                     <a href=""><button><i class="fab fa-twitter"></i>Twitter</button></a>
+                     <a href="https://www.linkedin.com/in/nitish-kumar-a0848a129"><button><i class="fab fa-linkedin"></i>LinkedIn</button></a>
+                     <a href="https://github.com/nitish14920"><button><i class="fab fa-github"></i>Github</button></a>
                  </div>
             </div>
         </ContactDiv>

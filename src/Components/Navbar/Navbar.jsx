@@ -1,7 +1,13 @@
 import { NavDiv } from "../../Styles/NavbarStyles";
 import { Link } from "react-router-dom";
+
+import { Icon} from "@mui/material";
+import Modal from "react-modal"
 export function Navbar(){
 
+    const menuClick = (e)=>{
+        console.log(e)
+    }
     return (
         <NavDiv>
             <div className="logoContainer">
@@ -16,8 +22,12 @@ export function Navbar(){
             </div>
             <div className="linksContainer">
                 <a href="./nitish_nj2_152.pdf"><button>Resume</button></a>
-                <button><img src="./GitHub-Mark-Light-32px.png" alt="" /> <p>Github</p></button>
+                <a href="https://github.com/nitish14920"><button><img id="githubImg" src="./GitHub-Mark-Light-32px.png" alt="" /> <p>Github</p></button></a>
             </div>
+            <Modal>
+                <Icon className="menuIcon">menu</Icon>
+                <h1>menu</h1>
+                </Modal>
         </NavDiv>
     )
 }

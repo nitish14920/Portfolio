@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const AbtMe = styled.div`
 height: 100%;
 & .details > div > h6{
-    font-size:18px;
+    font-size:1.3rem;
     padding: 30px;
 }
 & .details > h1{

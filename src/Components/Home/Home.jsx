@@ -13,7 +13,7 @@ export function Home(){
                 <a href="">LET'S CHAT!</a>
             </div>
             <div className="profilePhoto">
-                <img src="../../../../ResumeImage.png" alt="" />
+                <img  src="../../../../ResumeImage.png" alt="" />
             </div>
         </HomeDiv>
     )
