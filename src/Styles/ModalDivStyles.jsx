@@ -19,7 +19,7 @@ color: #e4e6eb ;
 }
 & .details{
     display: flex;
-    height: 60vh;
+    height: 65vh;
     width: 100%;
     & > div{
         margin: 10px;
