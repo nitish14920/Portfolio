@@ -68,7 +68,7 @@ export function Project({data}){
                         <a target="_blank" rel="noreferrer" href={data.code}><button className="code-demo">CODE</button></a> 
                         <a target="_blank" rel="noreferrer" href={data.demo}><button className="code-demo">DEMO</button></a>
                         </div> :  <div>
-                    <a href={data.code}><button className="code-demo">CODE</button></a> 
+                    <a target="_blank" rel="noreferrer" href={data.code}><button className="code-demo">CODE</button></a> 
                     
                     </div>
                     }

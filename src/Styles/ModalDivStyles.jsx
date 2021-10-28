@@ -19,7 +19,7 @@ color: #e4e6eb ;
 }
 & .details{
     display: flex;
-    height: 55vh;
+    height: 60vh;
     width: 100%;
     & > div{
         margin: 10px;
@@ -50,7 +50,7 @@ color: #e4e6eb ;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height:60%;
+    height:40%;
     width: 100%;
     & > div {
         height: 40%;

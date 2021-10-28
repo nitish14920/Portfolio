@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const ContactDiv = styled.div`
-height: 100%;
+height: 100vh;
+overflow: hidden;
 display: flex;
 justify-content: center;
 text-align: left;
@@ -18,7 +19,7 @@ text-align: left;
     }
 }
 & .right{
-    text-align: left;
+    text-align: center;
     width: 40%;
     height: 100%;
     padding: 2%;
@@ -51,12 +52,16 @@ text-align: left;
     }
 }
 & .links{
+    
+    flex-direction: column;
     margin-top: 20%;
+    margin-bottom: 15%;
+    height: 20vw;
     display: flex;
     justify-content: space-around;
     button{
         height: 40px;
-        width: 120px;
+        width: 20vw;
         cursor: pointer;
         border-radius: 10px;
         background: none;
@@ -143,8 +148,9 @@ text-align: left;
     
 }
 }
-@media(max-width:768px){
+@media(max-width:400px){
     height: 100%;
+    overflow: hidden;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -167,7 +173,7 @@ text-align: left;
     }
 }
 & .right{
-    text-align: left;
+    text-align: center;
     width: 55%;
     padding: 2%;
     margin:auto;
@@ -201,8 +207,9 @@ text-align: left;
     }
 }
 & .links{
-    margin-top: 20%;
+    margin-top: 38%;
     display: flex;
+    height: 30vh;
     justify-content: space-around;
     button{
         height: 30px;

@@ -26,7 +26,7 @@ export function Navbar(){
             </div>
             <div className="linksContainer">
                 <a target="_blank" rel="noreferrer" href="./nitish_nj2_152.pdf">Resume</a>
-                <a href="https://github.com/nitish14920"><img id="githubImg" src="./GitHub-Mark-Light-32px.png" alt="" /> <p>Github</p></a>
+                <a target="_blank" rel="noreferrer" href="https://github.com/nitish14920"><img id="githubImg" src="./GitHub-Mark-Light-32px.png" alt="" /> <p>Github</p></a>
             </div>
             <button onClick={burgerClick} className="menuIcon">
             <Menu right isOpen={isopen} className="burgerMenu">

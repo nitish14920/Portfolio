@@ -19,6 +19,7 @@ margin: 40px;
     height: 60%;
     width: 100%;
     border-radius: 10px;
+   
 }
 & h1 , p {
     color: #e4e6eb;
