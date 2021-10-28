@@ -20,7 +20,7 @@ export function Projects(){
                 "Designed the Gold page which holds all the Gold related investment options",
                 "Developed a Profile Page for Users."
             ],
-            url:"../../../Groww.png",
+            url:["groww1.png","groww2.png","groww3.png","groww4.png"],
             skills:[
                 {
                     url:'../../../Logos/css.png',
@@ -46,7 +46,9 @@ export function Projects(){
                     url:'../../../Logos/nodejs.png',
                      title:"NodeJS"
                 }
-            ]
+            ],
+            code:"https://github.com/santoshmcode/groww-clone",
+            demo:"https://growww-app.herokuapp.com/"
         },
         {
             title:"Glassdoor",
@@ -63,7 +65,7 @@ export function Projects(){
                 "Developed the Frontend and Backend for adding a new Job",
                 "Designed the Companies Page"
             ],
-            url:"../../../Glassdoor.png",
+            url:["glassdoor1.png","glassdoor2.png","glassdoor3.png","glassdoor4.png"],
             skills:[
                 {
                     url:'../../../Logos/css.png',
@@ -81,7 +83,9 @@ export function Projects(){
                     url:'../../../Logos/react.png',
                     title:"ReactJS"
                 }
-            ]
+            ],
+            code:"https://github.com/chandan1499/Project-glassdoor",
+            demo:"https://glassdoor-clone.netlify.app/"
         },
         {
             title:"Lovoda",
@@ -98,7 +102,7 @@ export function Projects(){
                 "Built Account Page",
                 "Worked on Wishlist and Cart"
             ],
-            url:"../../../Lovoda.png",
+            url:["lovada1.png","lovada2.png","lovoda3.png","lovoda4.png"],
             skills:[
                 {
                     url:'../../../Logos/css.png',
@@ -112,14 +116,16 @@ export function Projects(){
                     url:'../../../Logos/javascript.png',
                     title:"JavaScript"
                 },
-            ]
+            ],
+            code:"https://github.com/nitish14920/Lovada",
+            demo:false
         }
     ]
     return(
 
         <ProjectDiv>
             <h1>Projects</h1>
-            <div className="projects" style={{height:"100%"}}>
+            <div className="projects" >
                 <Project data = {data[0]}/>
                 <Project data = {data[1]}/>
                 <Project data = {data[2]}/>

@@ -8,7 +8,7 @@ export function AboutMe(){
             <h1>About Me</h1>
             <div>
                 <p>"Creativity is Intelligence having Fun...!"</p>
-                <h6>Passionate web developer with the ability to write efficient
+                <h6>Highly Motivated web developer with the ability to write efficient
 codes using the MERN stack. <br /> Having built several projects
 in this field, <br /> I am seeking an opportunity to grow and learn
 from other experienced team members.</h6>

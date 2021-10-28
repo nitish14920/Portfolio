@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ModalDiv = styled.div`
 color: #e4e6eb ;
-& h1,h3,h4,p{
+& h1,h3,h6,p{
     margin: 0px;
 }
 & > img{
@@ -11,7 +11,7 @@ color: #e4e6eb ;
     border-radius: 5px;
     width: 98%;
 }
-& button{
+& >button{
     height: 10%;
     margin-left: 99%;
     margin-top: -99%;
@@ -30,16 +30,31 @@ color: #e4e6eb ;
     }
     & .right{
         width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        & >div>a> button{
+            width: 5vw;
+            height: 3vw;
+            margin-left: 10px;
+            margin-top: 30px;
+            border: none;
+            border-radius: 4px;
+            background-color: #35CE8D;
+            text-decoration: none;
+        }
     }
 }
 & .techstack{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     height:60%;
     width: 100%;
     & > div {
         height: 40%;
-        width: 25%;
+        width: 20%;
         display: flex;
         flex-direction: column;
         padding: 5px;
@@ -49,7 +64,7 @@ color: #e4e6eb ;
         margin: auto;
     }
     
-    & >div>h4{
+    & >div>h6{
         text-align: center;
     }
 }
@@ -140,7 +155,7 @@ color: #e4e6eb ;
 & .details{
     display: flex;
     flex-direction: column;
-    height: 55vh;
+    
     width: 100%;
     & > div{
         margin: 10px;
@@ -157,6 +172,11 @@ color: #e4e6eb ;
     }
     & .right{
         width: 100%;
+        & >div>a> button{
+            width: 10vw;
+            height: 6vw;
+           font-size:.8rem;
+        }
     }
 }
 & .techstack{

@@ -2,8 +2,8 @@ import styled from 'styled-components'
 
 export const ProjectContainer = styled.div`
 
-width: 40%;
-height: 40%;
+width: 40vw;
+height: 25vw;
 background-color: white;
 border-radius: 10px;
 cursor: pointer;
@@ -16,7 +16,7 @@ margin: 40px;
 
 & img{
     
-    height: 50%;
+    height: 60%;
     width: 100%;
     border-radius: 10px;
 }
@@ -29,9 +29,10 @@ margin: 40px;
 }
 & .details{
     background-color: #4a4a4d;
-    height: 50%;
+    height: 40%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    
 }
 @media(max-width:768px){
     width: 70%;

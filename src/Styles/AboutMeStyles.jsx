@@ -17,7 +17,10 @@ height: 100%;
     justify-content: center;
     padding: 30px;
     & div{
-        font-size: 1.1rem;
+        width: 7vw;
+        height: 8vw;
+        font-size: 1rem;
+        padding: 10px;
     }
     
 }
@@ -33,7 +36,7 @@ height: 100%;
     & .skills > div{
         height: 120px;
         width: 120px;
-        & > h4{
+        & > h6{
             font-size: 1rem;
             padding: 10px;
             margin-top: 0px;
@@ -60,7 +63,7 @@ height: 100%;
     & .skills > div{
         height: 70px;
         width: 80px;
-        & > h4{
+        & > h6{
             font-size: .7rem;
             padding: 10px;
             margin-top: 0px;

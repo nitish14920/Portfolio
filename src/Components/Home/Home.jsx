@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { HomeDiv } from "../../Styles/Homestyles";
 
 export function Home(){
@@ -14,7 +15,7 @@ export function Home(){
                 <p>It's nice to meet you. I design and code <br />
                 beautifully and I love what I do.
                 </p>
-                <a href="">LET'S CHAT!</a>
+                <Link to="../Contact/contact">LET'S CHAT!</Link>
             </div>
             <div className="profilePhoto">
                 <img  src="../../../../ResumeImage.png" alt="" />

@@ -32,12 +32,12 @@ padding: 1vh 2vh;
 }
 & .linksContainer{
     display: flex;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-left: 10%;
     height: 100%;
     &  a{
-        height: 40px;
-        width: 150px;
+        height: 30px;
+        width: 10vw;
         
         line-height: 2;
         font-size: 1rem;

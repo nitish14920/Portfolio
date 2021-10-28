@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SkillDiv = styled.div`
-font-size:.7rem;
+
 height: 18vh;
 width: 16vh;
 border-radius: 10px;

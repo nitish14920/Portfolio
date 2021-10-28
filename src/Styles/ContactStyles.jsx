@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContactDiv = styled.div`
-height: 100vh;
+height: 100%;
 display: flex;
 justify-content: center;
 text-align: left;
@@ -20,6 +20,7 @@ text-align: left;
 & .right{
     text-align: left;
     width: 40%;
+    height: 100%;
     padding: 2%;
     & h2 , p{
         margin-top: 5%;
@@ -50,7 +51,7 @@ text-align: left;
     }
 }
 & .links{
-    margin-top: 120px;
+    margin-top: 20%;
     display: flex;
     justify-content: space-around;
     button{

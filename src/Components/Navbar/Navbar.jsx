@@ -6,7 +6,7 @@ export function Navbar(){
     const [isopen,setIsopen] = useState(false)
 
     const burgerClick = ()=>{
-        isopen ? setIsopen(false):setIsopen(true)
+        isopen ? setIsopen(true):setIsopen(false)
     }
     const menuClick = (e)=>{
         const div = document.getElementById("menuContainerId")
@@ -25,11 +25,11 @@ export function Navbar(){
                 <Link to="/contact"><span >Contact</span></Link>
             </div>
             <div className="linksContainer">
-                <a href="./nitish_nj2_152.pdf">Resume</a>
+                <a target="_blank" rel="noreferrer" href="./nitish_nj2_152.pdf">Resume</a>
                 <a href="https://github.com/nitish14920"><img id="githubImg" src="./GitHub-Mark-Light-32px.png" alt="" /> <p>Github</p></a>
             </div>
             <button onClick={burgerClick} className="menuIcon">
-            <Menu  right isOpen={isopen} className="burgerMenu">
+            <Menu right isOpen={isopen} className="burgerMenu">
                 <Link id="home" className="menu-item" to="/">Home</Link>
                 <Link id="about" className="menu-item" to="/about">About</Link>
                 <Link id="projects" className="menu-item" to="/projects">Projects</Link>
