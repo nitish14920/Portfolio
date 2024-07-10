@@ -1,34 +1,35 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import { Skill } from "../AboutMe/Skill";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import styles from "./projectDetails.module.css";
 
 const ProjectDetails = ({ data }) => {
   return (
     <div className={styles.projectDetails}>
       {/* <img id="projectImg" src={data.url} alt="" /> */}
-      <Carousel>
+      <Carousel showThumbs={false}>
         <div>
           <img
-            id="projectImg"
+            id="projectImg1"
             src={data.url[0]}
-            alt=""
+            alt="img"
             className={styles.imageCss}
           />
         </div>
         <div>
           <img
-            id="projectImg"
+            id="projectImg2"
             src={data.url[1]}
-            alt=""
+            alt="img"
             className={styles.imageCss}
           />
         </div>
         <div>
           <img
-            id="projectImg"
+            id="projectImg3"
             src={data.url[2]}
-            alt=""
+            alt="img"
             className={styles.imageCss}
           />
         </div>

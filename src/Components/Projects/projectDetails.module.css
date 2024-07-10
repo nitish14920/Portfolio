@@ -2,11 +2,13 @@
   box-shadow: 2px 2px 5px 2px #54d159;
   width: 90vw;
   padding: 10px;
-  :global(.thumb) {
-    > img {
-      padding: 0;
-      width: 18vw !important;
-      border: 2px solid green !important;
+
+  .imageCss {
+    padding: 20px;
+    width: 70vw;
+
+    @media screen and (max-width: 770px) {
+      width: 90vw !important;
     }
   }
 }
@@ -16,13 +18,7 @@
   justify-content: space-around;
   margin-bottom: 20px;
 }
-.imageCss {
-  padding: 20px;
 
-  @media screen and (max-width: 770px) {
-    width: 90vw !important;
-  }
-}
 .details {
   p {
     word-wrap: break-word !important;
