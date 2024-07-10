@@ -1,0 +1,45 @@
+.projectDetails {
+  box-shadow: 2px 2px 5px 2px #54d159;
+  width: 90vw;
+  padding: 10px;
+  :global(.thumb) {
+    > img {
+      padding: 0;
+      width: 18vw !important;
+      border: 2px solid green !important;
+    }
+  }
+}
+.teckstack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.imageCss {
+  padding: 20px;
+
+  @media screen and (max-width: 770px) {
+    width: 90vw !important;
+  }
+}
+.details {
+  p {
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+  }
+  .textDetails {
+    display: flex;
+    text-align: left;
+    gap: 30px;
+    padding: 20px;
+    justify-content: space-between;
+  }
+}
+.demoButton {
+  background-color: #54d159;
+  height: 50px;
+  width: 100px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
